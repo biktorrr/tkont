@@ -1,0 +1,996 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/loishutubessy/ontologies/2020/6/TraditionalKnowledgeOnt"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/loishutubessy/ontologies/2020/6/TraditionalKnowledgeOnt">
+    <Prefix name="" IRI="http://www.semanticweb.org/loishutubessy/ontologies/2020/6/TraditionalKnowledgeOnt"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>The traditional knowledge ontology focuses on the transmission of traditional knowledge items between knowledge holders from different communities. It aims to facilitate the sharing and searching of traditional knowledge items in digital formats, which can be text, image, video or audio files that represent a form of traditional knowledge. These representations are commonly created by knowledge holders in order to share their traditional knowledge with members of their own communities, other communities, or the wider public.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Community"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Individual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Item"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Knowledge_Holder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Label"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Theme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#BelongsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Creates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OriginOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMember"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOrigin"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProtocol"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAbout"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCreatedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLocatedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLocationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMemberOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isProtocolOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isThemeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTopicOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#city"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#country"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#gender"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#title"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Boat_building"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Briquette_making"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Community_Values"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Comoe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cotton_is_life_in_Burkina_Faso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cotton_weaving"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Entebbe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#How_to_make_homemade_briquettes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Indigenous_system_thinking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Karelia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kesälahti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Laura_Melloni"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Marche"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Relationship_with_Nature"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Snowchange_Cooperative"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Souleymane_Ouattara"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#System_thinking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TK_Community_Use_Only"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TK_Men_General"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TK_Men_Restricted"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TK_Multiple_Communities"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TK_Women_General"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TK_Women_Restricted"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tero_Mustonen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Constellation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Lake_boats_of_Finland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tiéfo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Clothing_&amp;_Beauty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Food_&amp;_Cooking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Italy&apos;s_Indigenous_Share_Croppers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shelter_&amp;_Buildings"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TK_Secret/Sacred"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#the_Jaja&apos;s_of_Kitibilu"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPosition"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPositionX"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPositionY"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Group"/>
+        <Class IRI="#Knowledge_Holder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Individual"/>
+        <Class IRI="#Knowledge_Holder"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#Boat_building"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#Briquette_making"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theme"/>
+        <NamedIndividual IRI="#Community_Values"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Geography"/>
+        <NamedIndividual IRI="#Comoe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Item"/>
+        <NamedIndividual IRI="#Cotton_is_life_in_Burkina_Faso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#Cotton_weaving"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Geography"/>
+        <NamedIndividual IRI="#Entebbe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Item"/>
+        <NamedIndividual IRI="#How_to_make_homemade_briquettes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Item"/>
+        <NamedIndividual IRI="#Indigenous_system_thinking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Community"/>
+        <NamedIndividual IRI="#Karelia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Geography"/>
+        <NamedIndividual IRI="#Kesälahti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Individual"/>
+        <NamedIndividual IRI="#Laura_Melloni"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Geography"/>
+        <NamedIndividual IRI="#Marche"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#Relationship_with_Nature"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Group"/>
+        <NamedIndividual IRI="#Snowchange_Cooperative"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Individual"/>
+        <NamedIndividual IRI="#Souleymane_Ouattara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#System_thinking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Label"/>
+        <NamedIndividual IRI="#TK_Community_Use_Only"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Label"/>
+        <NamedIndividual IRI="#TK_Men_General"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Label"/>
+        <NamedIndividual IRI="#TK_Men_Restricted"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Label"/>
+        <NamedIndividual IRI="#TK_Multiple_Communities"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Label"/>
+        <NamedIndividual IRI="#TK_Women_General"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Label"/>
+        <NamedIndividual IRI="#TK_Women_Restricted"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Individual"/>
+        <NamedIndividual IRI="#Tero_Mustonen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Group"/>
+        <NamedIndividual IRI="#The_Constellation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Item"/>
+        <NamedIndividual IRI="#The_Lake_boats_of_Finland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Community"/>
+        <NamedIndividual IRI="#Tiéfo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theme"/>
+        <NamedIndividual IRI="#Clothing_&amp;_Beauty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theme"/>
+        <NamedIndividual IRI="#Food_&amp;_Cooking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Community"/>
+        <NamedIndividual IRI="#Italy&apos;s_Indigenous_Share_Croppers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theme"/>
+        <NamedIndividual IRI="#Shelter_&amp;_Buildings"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Label"/>
+        <NamedIndividual IRI="#TK_Secret/Sacred"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Community"/>
+        <NamedIndividual IRI="#the_Jaja&apos;s_of_Kitibilu"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OriginOf"/>
+        <NamedIndividual IRI="#Comoe"/>
+        <NamedIndividual IRI="#Cotton_is_life_in_Burkina_Faso"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isLocationOf"/>
+        <NamedIndividual IRI="#Comoe"/>
+        <NamedIndividual IRI="#Tiéfo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrigin"/>
+        <NamedIndividual IRI="#Cotton_is_life_in_Burkina_Faso"/>
+        <NamedIndividual IRI="#Comoe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProtocol"/>
+        <NamedIndividual IRI="#Cotton_is_life_in_Burkina_Faso"/>
+        <NamedIndividual IRI="#TK_Community_Use_Only"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isCreatedBy"/>
+        <NamedIndividual IRI="#Cotton_is_life_in_Burkina_Faso"/>
+        <NamedIndividual IRI="#Souleymane_Ouattara"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OriginOf"/>
+        <NamedIndividual IRI="#Entebbe"/>
+        <NamedIndividual IRI="#How_to_make_homemade_briquettes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isLocationOf"/>
+        <NamedIndividual IRI="#Entebbe"/>
+        <NamedIndividual IRI="#the_Jaja&apos;s_of_Kitibilu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrigin"/>
+        <NamedIndividual IRI="#How_to_make_homemade_briquettes"/>
+        <NamedIndividual IRI="#Entebbe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProtocol"/>
+        <NamedIndividual IRI="#How_to_make_homemade_briquettes"/>
+        <NamedIndividual IRI="#TK_Women_General"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAbout"/>
+        <NamedIndividual IRI="#How_to_make_homemade_briquettes"/>
+        <NamedIndividual IRI="#Briquette_making"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isCreatedBy"/>
+        <NamedIndividual IRI="#How_to_make_homemade_briquettes"/>
+        <NamedIndividual IRI="#The_Constellation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrigin"/>
+        <NamedIndividual IRI="#Indigenous_system_thinking"/>
+        <NamedIndividual IRI="#Marche"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProtocol"/>
+        <NamedIndividual IRI="#Indigenous_system_thinking"/>
+        <NamedIndividual IRI="#TK_Multiple_Communities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isCreatedBy"/>
+        <NamedIndividual IRI="#Indigenous_system_thinking"/>
+        <NamedIndividual IRI="#Laura_Melloni"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMember"/>
+        <NamedIndividual IRI="#Karelia"/>
+        <NamedIndividual IRI="#Tero_Mustonen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isLocatedIn"/>
+        <NamedIndividual IRI="#Karelia"/>
+        <NamedIndividual IRI="#Kesälahti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OriginOf"/>
+        <NamedIndividual IRI="#Kesälahti"/>
+        <NamedIndividual IRI="#The_Lake_boats_of_Finland"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isLocationOf"/>
+        <NamedIndividual IRI="#Kesälahti"/>
+        <NamedIndividual IRI="#Karelia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Creates"/>
+        <NamedIndividual IRI="#Laura_Melloni"/>
+        <NamedIndividual IRI="#Indigenous_system_thinking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OriginOf"/>
+        <NamedIndividual IRI="#Marche"/>
+        <NamedIndividual IRI="#Indigenous_system_thinking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isLocationOf"/>
+        <NamedIndividual IRI="#Marche"/>
+        <NamedIndividual IRI="#Italy&apos;s_Indigenous_Share_Croppers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Creates"/>
+        <NamedIndividual IRI="#Snowchange_Cooperative"/>
+        <NamedIndividual IRI="#The_Lake_boats_of_Finland"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Creates"/>
+        <NamedIndividual IRI="#Souleymane_Ouattara"/>
+        <NamedIndividual IRI="#Cotton_is_life_in_Burkina_Faso"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Creates"/>
+        <NamedIndividual IRI="#Tero_Mustonen"/>
+        <NamedIndividual IRI="#The_Lake_boats_of_Finland"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Creates"/>
+        <NamedIndividual IRI="#The_Constellation"/>
+        <NamedIndividual IRI="#How_to_make_homemade_briquettes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrigin"/>
+        <NamedIndividual IRI="#The_Lake_boats_of_Finland"/>
+        <NamedIndividual IRI="#Kesälahti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAbout"/>
+        <NamedIndividual IRI="#The_Lake_boats_of_Finland"/>
+        <NamedIndividual IRI="#Boat_building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isCreatedBy"/>
+        <NamedIndividual IRI="#The_Lake_boats_of_Finland"/>
+        <NamedIndividual IRI="#Tero_Mustonen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMember"/>
+        <NamedIndividual IRI="#Tiéfo"/>
+        <NamedIndividual IRI="#Souleymane_Ouattara"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isLocatedIn"/>
+        <NamedIndividual IRI="#Tiéfo"/>
+        <NamedIndividual IRI="#Comoe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isThemeOf"/>
+        <NamedIndividual IRI="#Clothing_&amp;_Beauty"/>
+        <NamedIndividual IRI="#Cotton_weaving"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMember"/>
+        <NamedIndividual IRI="#Italy&apos;s_Indigenous_Share_Croppers"/>
+        <NamedIndividual IRI="#Laura_Melloni"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isLocatedIn"/>
+        <NamedIndividual IRI="#Italy&apos;s_Indigenous_Share_Croppers"/>
+        <NamedIndividual IRI="#Marche"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMember"/>
+        <NamedIndividual IRI="#the_Jaja&apos;s_of_Kitibilu"/>
+        <NamedIndividual IRI="#The_Constellation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isLocatedIn"/>
+        <NamedIndividual IRI="#the_Jaja&apos;s_of_Kitibilu"/>
+        <NamedIndividual IRI="#Entebbe"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#city"/>
+        <NamedIndividual IRI="#Comoe"/>
+        <Literal>Comoe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#Comoe"/>
+        <Literal>Burkina Faso</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Cotton_is_life_in_Burkina_Faso"/>
+        <Literal>Cottin is life in Burkina Faso</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#city"/>
+        <NamedIndividual IRI="#Entebbe"/>
+        <Literal>Entebbe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#Entebbe"/>
+        <Literal>Uganda</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#How_to_make_homemade_briquettes"/>
+        <Literal>How to make homemade briquettes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Indigenous_system_thinking"/>
+        <Literal>Indigenous System Thinking</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#city"/>
+        <NamedIndividual IRI="#Kesälahti"/>
+        <Literal>Kesälahti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#Kesälahti"/>
+        <Literal>Finland</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#Laura_Melloni"/>
+        <Literal>Woman</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Laura_Melloni"/>
+        <Literal>Laura</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Laura_Melloni"/>
+        <Literal>Laura Melloni</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#city"/>
+        <NamedIndividual IRI="#Marche"/>
+        <Literal>Marche</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#Marche"/>
+        <Literal>Italy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Snowchange_Cooperative"/>
+        <Literal>Snowchange Cooperative</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#Souleymane_Ouattara"/>
+        <Literal>Man</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Souleymane_Ouattara"/>
+        <Literal>Souleymane Ouattara</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#Tero_Mustonen"/>
+        <Literal>Man</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Tero_Mustonen"/>
+        <Literal>Tero Mustonen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#The_Constellation"/>
+        <Literal>The Constellation</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#The_Lake_boats_of_Finland"/>
+        <Literal>The lake boats of Finland</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#BelongsTo"/>
+        <ObjectProperty IRI="#isThemeOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Creates"/>
+        <ObjectProperty IRI="#isCreatedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#OriginOf"/>
+        <ObjectProperty IRI="#hasOrigin"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasMember"/>
+        <ObjectProperty IRI="#isMemberOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasProtocol"/>
+        <ObjectProperty IRI="#isProtocolOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isAbout"/>
+        <ObjectProperty IRI="#isTopicOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isLocatedIn"/>
+        <ObjectProperty IRI="#isLocationOf"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#BelongsTo"/>
+        <Class IRI="#Topic"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOrigin"/>
+        <Class IRI="#Item"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProtocol"/>
+        <Class IRI="#Item"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAbout"/>
+        <Class IRI="#Item"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCreatedBy"/>
+        <Class IRI="#Item"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLocatedIn"/>
+        <Class IRI="#Community"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <Class IRI="#Knowledge_Holder"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#BelongsTo"/>
+        <Class IRI="#Theme"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOrigin"/>
+        <Class IRI="#Geography"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProtocol"/>
+        <Class IRI="#Label"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAbout"/>
+        <Class IRI="#Topic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCreatedBy"/>
+        <Class IRI="#Knowledge_Holder"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isLocatedIn"/>
+        <Class IRI="#Geography"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <Class IRI="#Community"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#city"/>
+        <Class IRI="#Geography"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#country"/>
+        <Class IRI="#Geography"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#description"/>
+        <Class IRI="#Label"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#gender"/>
+        <Class IRI="#Individual"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Knowledge_Holder"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#title"/>
+        <Class IRI="#Item"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#city"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#country"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#gender"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#title"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPosition"/>
+        <IRI>#Community</IRI>
+        <AnonymousIndividual nodeID="_:genid2147483649"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Community</IRI>
+        <Literal>A group of agents that identify to the same culture. e.g. the Sarayaku tribe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPosition"/>
+        <IRI>#Geography</IRI>
+        <AnonymousIndividual nodeID="_:genid2147483650"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Geography</IRI>
+        <Literal>A physical location in space that can be identified by a name. e.g. Karelia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPosition"/>
+        <IRI>#Group</IRI>
+        <AnonymousIndividual nodeID="_:genid2147483652"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Group</IRI>
+        <Literal>A group of people that have custodianship over a traditional knowledge item.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPosition"/>
+        <IRI>#Individual</IRI>
+        <AnonymousIndividual nodeID="_:genid2147483654"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Individual</IRI>
+        <Literal>A person that has custodianship over a traditional knowledge item.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPosition"/>
+        <IRI>#Item</IRI>
+        <AnonymousIndividual nodeID="_:genid2147483656"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Item</IRI>
+        <Literal>A digital representation of a piece of knowledge, in the form of text, image, video, or audio files. e.g. A recording of a wisdom teaching</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPosition"/>
+        <IRI>#Knowledge_Holder</IRI>
+        <AnonymousIndividual nodeID="_:genid2147483657"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Knowledge_Holder</IRI>
+        <Literal>The agent that has custodianship over a traditional knowledge item. e.g.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPosition"/>
+        <IRI>#Label</IRI>
+        <AnonymousIndividual nodeID="_:genid2147483659"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Label</IRI>
+        <Literal>An information sharing protocol that describes how a TK item must be circulated. e.g. A women restricted only label that specifies that an item must only be shared among women</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPosition"/>
+        <IRI>#Theme</IRI>
+        <AnonymousIndividual nodeID="_:genid2147483661"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Theme</IRI>
+        <Literal>A unifying idea behind a group of concepts. e.g. Building &amp; Construction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPosition"/>
+        <IRI>#Topic</IRI>
+        <AnonymousIndividual nodeID="_:genid2147483663"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Topic</IRI>
+        <Literal>The subject matter of a concept e.g. Boat building</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPositionX"/>
+        <AnonymousIndividual nodeID="_:genid2147483665"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">74.11224183182578</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPositionY"/>
+        <AnonymousIndividual nodeID="_:genid2147483665"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">65.9620198394527</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnonymousIndividual nodeID="_:genid2147483665"/>
+        <Literal xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPositionX"/>
+        <AnonymousIndividual nodeID="_:genid2147483672"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">102.21346346890695</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPositionY"/>
+        <AnonymousIndividual nodeID="_:genid2147483672"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">52.77375165590359</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnonymousIndividual nodeID="_:genid2147483672"/>
+        <Literal xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPositionX"/>
+        <AnonymousIndividual nodeID="_:genid2147483674"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">262.478699614913</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPositionY"/>
+        <AnonymousIndividual nodeID="_:genid2147483674"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">78.07041166473617</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnonymousIndividual nodeID="_:genid2147483674"/>
+        <Literal xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPositionX"/>
+        <AnonymousIndividual nodeID="_:genid2147483676"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">144.0672247085779</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPositionY"/>
+        <AnonymousIndividual nodeID="_:genid2147483676"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">132.16063918695266</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnonymousIndividual nodeID="_:genid2147483676"/>
+        <Literal xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPositionX"/>
+        <AnonymousIndividual nodeID="_:genid2147483677"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">25.336909442779696</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPositionY"/>
+        <AnonymousIndividual nodeID="_:genid2147483677"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">111.38262765212365</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnonymousIndividual nodeID="_:genid2147483677"/>
+        <Literal xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPositionX"/>
+        <AnonymousIndividual nodeID="_:genid2147483678"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">300.6546570946424</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPositionY"/>
+        <AnonymousIndividual nodeID="_:genid2147483678"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">299.59637090172976</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnonymousIndividual nodeID="_:genid2147483678"/>
+        <Literal xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPositionX"/>
+        <AnonymousIndividual nodeID="_:genid2147483679"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">228.4886749303383</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPositionY"/>
+        <AnonymousIndividual nodeID="_:genid2147483679"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">287.9544923523093</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnonymousIndividual nodeID="_:genid2147483679"/>
+        <Literal xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPositionX"/>
+        <AnonymousIndividual nodeID="_:genid2147483680"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">73.08845546051019</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPositionY"/>
+        <AnonymousIndividual nodeID="_:genid2147483680"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">160.57234215979423</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnonymousIndividual nodeID="_:genid2147483680"/>
+        <Literal xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPositionX"/>
+        <AnonymousIndividual nodeID="_:genid2147483681"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">185.8587433451477</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologydesignpatterns.org/opla-sd#entityPositionY"/>
+        <AnonymousIndividual nodeID="_:genid2147483681"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">239.95181978822055</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnonymousIndividual nodeID="_:genid2147483681"/>
+        <Literal xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
